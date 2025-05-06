@@ -1,0 +1,49 @@
+/* Body ka style */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  /* Container jo weather app ko wrap karega */
+  .container {
+    background-color: rgba(0,0,0,0.4);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+  }
+  
+  /* Input aur button ka style */
+  input, button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  /* Button ka color aur hover effect */
+  button {
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  /* Weather info ka style */
+  .weather-info {
+    margin-top: 20px;
+  }
+  
+  .weather-info h2 {
+    font-size: 24px;
+  }
+  
+  .weather-info p {
+    font-size: 18px;
+  }
